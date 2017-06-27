@@ -1,3 +1,6 @@
 $(document).ready(function(){
-	$("#grid").height("px");
-});
+	for (x=1; x<17;x++;) {
+var rows = 
+	$('#grid').append(magic);
+}
+	});

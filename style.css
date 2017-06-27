@@ -4,7 +4,31 @@
   width: 10px;
 }
 
-#container {
-	height: 200px;
-	width: 200px;
+.container {
+	height: 400px;
+	width: 400px;
+	border: 1px solid black;
+}
+
+.floating-box {
+	float: left; /*using float method*/
+/*  display: inline-block;    this method leaves lines in between boxes */
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    background-color: #40E0D0; 
+}
+.after-box {
+    clear: left;
+   /* border: 1px solid white; */
+}
+.h1 {
+	font-size: 40px;
+	font-family: Arial, sans-serif;
+	font-color: #00000;
+	width: 400px;
+	text-align: center;
+}
+.page_container {
+	width: 400px;
 }
