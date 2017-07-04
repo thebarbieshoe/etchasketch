@@ -1,34 +1,45 @@
-#grid {
-  background-color: #40E0D0;
-  height: 10px;
-  width: 10px;
+.square {
+  background-color: #c71585;
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+.squaresix {
+  background-color: #426545;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+.squared {
+  background-color: pink;
+  width: 60px;
+  height: 60px;
+  float: left;
 }
 
-.container {
-	height: 400px;
-	width: 400px;
-	border: 1px solid black;
+.squaredsix {
+  background-color: #19b268;
+  width: 15px;
+  height: 15px; 
+  float: left;
 }
 
-.floating-box {
-	float: left; /*using float method*/
-/*  display: inline-block;    this method leaves lines in between boxes */
-    width: 30px;
-    height: 30px;
-    margin: 0px;
-    background-color: #40E0D0; 
+.grid {
+  width: 960px;
+  height: 960px;
+  border: 1px;
+  border-style: solid;
+  border-color: #000000;
 }
-.after-box {
-    clear: left;
-   /* border: 1px solid white; */
+h1{
+  font-family: Arial, sans-serif;
+  font-color: #000000;
+  text-align: center;
 }
-.h1 {
-	font-size: 40px;
-	font-family: Arial, sans-serif;
-	font-color: #00000;
-	width: 400px;
-	text-align: center;
+.button {
+
 }
-.page_container {
-	width: 400px;
+
+.container{
+  width: 960px;
 }
