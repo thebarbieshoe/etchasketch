@@ -4,8 +4,8 @@
   height: 60px;
   float: left;
 }
-.squaresix {
-  background-color: #426545;
+.square64 {
+  background-color: #990099;
   width: 15px;
   height: 15px;
   float: left;
@@ -16,20 +16,17 @@
   height: 60px;
   float: left;
 }
-
-.squaredsix {
-  background-color: #19b268;
+.squared64 {
+  background-color: pink;
   width: 15px;
-  height: 15px; 
+  height: 15px;
   float: left;
 }
-
 .grid {
+  margin: auto;
   width: 960px;
   height: 960px;
-  border: 1px;
-  border-style: solid;
-  border-color: #000000;
+  border: 3px solid black;
 }
 h1{
   font-family: Arial, sans-serif;
@@ -41,5 +38,28 @@ h1{
 }
 
 .container{
-  width: 960px;
+  width: 1040px;
+  margin: auto;
+  padding: 30px;
+  border: 3px solid black;
+  background: grey;
+}
+.container2 {
+  width: 980px;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid black;
+  background: white;
+}
+.squaremulti {
+  background-color: #c71585;
+  width: 15px;
+  height: 15px;
+  float: left;
+}
+.squared64 {
+  background-color: pink;
+  width: 15px;
+  height: 15px;
+  float: left;
 }
